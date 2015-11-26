@@ -1,0 +1,6 @@
+ip rule add fwmark 1 lookup smart
+cd /proc/sys/net/ipv4/conf/; for i in *; do echo 0 > $i/rp_filter; done
+ipset -N chinaip nethash
+ipset -N japanip nethash
+for i in $(cat chinaip); do ipset -A chinaip $i; done
+for i in $(cat japanip); do ipset -A japanip $i; done

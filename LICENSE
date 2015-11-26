@@ -1,3 +1,13 @@
+Licensed File to:
+  iptables.backup
+  smartroutes
+  last few lines of dnsmasq.conf
+  othercmd
+
+Other file or partial file should respect their original license rather than
+BSD 3-clause stated below though they are different from upstream version.
+
+
 Copyright (c) 2015, Qijiang Fan
 All rights reserved.
 
