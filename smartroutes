@@ -13,6 +13,7 @@ ip route add 114.114.114.114 via $CN table smart # use 114dns to resolve cn doma
 
 # JP Google/Youtube
 ip route add 172.194.120.0/24 via $JP table smart
+ip route add 173.194.120.0/24 via $JP table smart
 ip route add 216.58.221.0/24 via $JP table smart
 
 
